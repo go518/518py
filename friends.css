@@ -1,0 +1,106 @@
+.friends{
+  min-width: 1200px;
+  width: 1200px;
+  margin: 0px auto;
+  padding: 100px 0;
+
+  background-color: #f7f3eb77;
+}
+h1{
+  text-align: center;
+}
+.card{
+  position: relative;
+  text-align: center;
+}
+/*-----right_back-----*/
+.right-card_back{
+  position: absolute;
+  border-radius: 5%;
+  width: 300px;
+  height: 350px;
+  vertical-align: top;
+
+  background-color: #8ecfd4;
+  color: #fef9ec;
+
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+.right-card_back span{
+  display: inline-block;
+  margin-top: 150px;
+
+  font-size: 40px;
+}
+.right-card_back:hover{
+  opacity: 0;
+  cursor: pointer;
+}
+/*-----left_back-----*/
+.left-card_back{
+  position: absolute;
+  border-radius: 5%;
+  width: 300px;
+  height: 350px;
+  vertical-align: top;
+
+  background-color: #8ecfd4;
+  color: #fef9ec;
+
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+.left-card_back span{
+  display: inline-block;
+  margin-top: 150px;
+
+  font-size: 40px;
+}
+.left-card_back:hover{
+  opacity: 0;
+  cursor: pointer;
+}
+/*-----right-----*/
+.right-card_container{
+  display: inline-block;
+  border-radius: 5%;
+  width: 300px;
+  height: 350px;
+  vertical-align: top;
+
+  margin: 40px;
+  background-color: #8ecfd4;
+  color: #fef9ec;
+}
+.right-card_container img{
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.right-card_container p{
+  width: 200px;
+  margin: 0 auto;
+  text-align: left;
+}
+/*-----left-----*/
+.left-card_container{
+  display: inline-block;
+  border-radius: 5%;
+  width: 300px;
+  height: 350px;
+  vertical-align: top;
+  margin: 40px;
+  background-color: #8ecfd4;
+  color: #fef9ec;
+}
+.left-card_container img{
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.left-card_container p{
+  width: 200px;
+  margin: 0 auto;
+  text-align: left;
+}

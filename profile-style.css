@@ -1,0 +1,59 @@
+.profiles{
+  padding-bottom: 100px;
+  min-width: 1200px;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #f7f3eb77;
+}
+
+.avatar_container{
+  display: inline-block;
+  width: 600px;
+  vertical-align: middle;
+}
+.avatar_container img{
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 72px;
+  margin-bottom: 10px;
+}
+.avatar_container span{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.profile_container{
+  display: inline-block;
+  padding: 20px;
+  margin-top: 45px;
+  width: 500px;
+  vertical-align: middle;
+
+  background-color: rgb(212, 203, 176);
+  background: rgb(212, 203, 176);; 
+  background: linear-gradient(to left bottom, transparent 50%, rgba(165, 157, 120, 0.4) 0) no-repeat 100% 0 / 2em 2em, linear-gradient(-135deg, transparent 1.5em, rgb(233, 213, 190) 0);
+}
+.birthday_container{
+  padding-bottom: 60px;
+}
+.self-introduction_container{
+  padding-bottom: 50px;
+}
+.birthday_container h3, .self-introduction_container h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.profile_container h3, .profile_container p, .profile_container span{
+  font-size: 25px;
+}
+#banner i{
+  font-size: 25px;
+  color: rgb(68, 68, 68);
+}
+#banner i:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgba(68, 67, 67, 0.342);
+}
