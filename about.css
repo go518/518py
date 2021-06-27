@@ -1,0 +1,33 @@
+.about-us{
+  min-width: 1200px;
+  width: 1200px;
+  margin: 0px auto;
+  /* padding: 100px 0; */
+  padding-bottom: 100px;
+
+  background-color: #f7f3eb77;
+}
+.about-us_container{
+  width: 990px;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+.about-us_container img{
+  display: inline-block;
+  width: 50%;
+}
+.about-us_container div{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 35px;
+}
+.about-us_container span{
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #8ecfd4;
+}
+.about-us_container p{
+  margin-bottom: 30px;
+}
